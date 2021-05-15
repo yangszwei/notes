@@ -18,8 +18,9 @@ void bubble_sort(int array[], int len) {
 
 int main() {
     int test_array[] = {3, 6, 23, -1, 54};
+    size_t len = sizeof(test_array) / sizeof(test_array[0]);
 
-    bubble_sort(test_array, sizeof(test_array));
+    bubble_sort(test_array, len);
 
     for (int i : test_array)
         std::cout << i << " ";
