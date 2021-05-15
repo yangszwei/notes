@@ -1,9 +1,10 @@
-.idea
-.vscode
-.DS_Store
-*.dSYM
 # ignore binaries
 *
 !/**/
 !*.*
 *.exe
+
+.idea
+.vscode
+.DS_Store
+*.dSYM
